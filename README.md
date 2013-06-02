@@ -1,6 +1,6 @@
 # Focus Existing Tab on Link
 
-This used to be an experimental feature in Chrome under chrome://flags but it is no more. With this Chrome extension, if you click a link to an existing tab, instead of opening a second tab, it will simply bring that tab to the front.
+This used to be an experimental feature in Chrome under <code>chrome://flags</code> but it is no more. With this Chrome extension, if you click a link to an existing tab, instead of opening a second tab, it will simply bring that tab to the front.
 
 ### Usage
 

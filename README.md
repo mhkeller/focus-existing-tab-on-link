@@ -4,7 +4,7 @@ This used to be an experimental feature in Chrome under chrome://flags but it is
 
 ### Usage
 
-Enable the extension in Chrome (uploading to Chrome store after I make some nicer icons, if you really want to use it now, download the repo, go to Chrome Extensions, tick <code>Developer mode</code>, click <code>Load unpacked extension</code>), and now any anchor tag that is classed <code>tab-link</code> will bring any existing tab with that url to the front on click. If no existing tab exists for that url, the link will open in a new one as normal. 
+Enable the extension in Chrome (uploading to Chrome store after I make some nicer icons, if you really want to use it now, download the repo, go to Chrome Extensions, tick <code>Developer mode</code>, click <code>Load unpacked extension</code>, and navigate to where you downloaded the repo), and now any anchor tag that is classed <code>tab-link</code> will bring any existing tab with that url to the front on click. If no existing tab exists for that url, the link will open in a new one as normal. 
 
 ### When would I ever want this?
 

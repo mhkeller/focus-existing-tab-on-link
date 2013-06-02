@@ -1,5 +1,5 @@
 (function(){
-	$('.in-tab').click(function(){
+	$('.tab-link').click(function(){
 		var url = $(this).attr('href')
 		chrome.runtime.sendMessage({this_url: url}, function(response) {
 		  if(!response.is_open){

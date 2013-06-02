@@ -9,3 +9,5 @@ Let's say you want to show off some interactive websites during your presentatio
 The semi-solution: Open up your example websites as separate tabs. The problem with that is it leaves you hunting for all these tabs in the middle of your presentation. And if you're in "Presentation mode" in Chrome, the menu animation is super swanky, yet distracting. 
 
 The better solution: Pre-load your example pages as separate tabs, as you normally would, and put hyperlinks to those pages in your presentation. When you get to that example, click on the link (it could be an image so it looks nice), and the already loaded tab will come to the front. To quickly get back to your slides, assuming your presentation is in the first tab position, hit cmd-1 and you're back!
+
+Disclaimer: This is my first Chrome extension, built mostly out of procrastination of not working on my actual presentation. Suggestions welcome.

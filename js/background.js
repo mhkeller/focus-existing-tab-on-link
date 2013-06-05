@@ -23,6 +23,8 @@ chrome.runtime.onMessage.addListener(
       var open = isHere(tab_urls, this_url);
       sendResponse({is_open: open});
 
+      console.log(tab_urls, this_url);
+
       if(open){
         var idx = tab_urls.indexOf(this_url);
         var tab_idx = tab_idxs[idx];

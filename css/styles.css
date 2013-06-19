@@ -1,17 +1,23 @@
 body {
-  min-width: 357px;
-  overflow-x: hidden;
+  width:200px;
+  font-family:Courier, monospace;
+  font-size:12px;
+  /*width:auto;*/
+  background-color: #303030;
+  color:white;
+  padding:5px;
+  letter-spacing: 1px;
+  text-align:center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-img {
-  margin: 5px;
-  border: 2px solid black;
-  vertical-align: middle;
-  width: 75px;
-  height: 75px;
-}
-.result-text{
-  font-family:Helvetica, sans-serif;
-  font-size:12px;
-  padding:2px;
+#close-me:hover{
+  text-decoration: underline;
+  cursor:pointer;
+  cursor:hand;
 }

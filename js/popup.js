@@ -1,9 +1,6 @@
 (function(){
 
-	chrome.tabs.getSelected(null, function(tab) {
-	    chrome.tabs.sendRequest(tab.id, "request", function(result) {
-	        console.log("Received from content script:", result)
-	    });
+	$('body').click(function(){
+		window.close();
 	});
-
 }).call(this)

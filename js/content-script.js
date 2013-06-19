@@ -8,9 +8,12 @@
 
 	function unq(arr){
 		var unq_arr = [];
+		var counter = 0;
 		$.each(arr, function(ind, val){
 			if(isHere(unq_arr,val) == false){
+				counter++
 				unq_arr.push(val);
+				console.log(counter, val)
 			}
 		});
 		return unq_arr
@@ -21,7 +24,6 @@
 		$.each(targeted_class, function(ind, val){
 			var href = $(val).attr('href');
 			hrefs_to_preload.push(href);
-			// console.log(ind, href)
 		});
 		return hrefs_to_preload
 	}
@@ -29,7 +31,13 @@
 	var unq_hrefs_to_preload = unq(hrefs_to_preload);
 
 	chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
-	    sendResponse(unq_hrefs_to_preload);
+		// console.log(unq_hrefs_to_preload)
+	 //    sendResponse(unq_hrefs_to_preload);
+ 		chrome.runtime.sendMessage({url_list: unq_hrefs_to_preload}, function(response) {
+		  // if(!response.is_open){
+		  // 	window.open(url)
+		  // }
+		});
 	});
 
 	$tab_links.click(function(){

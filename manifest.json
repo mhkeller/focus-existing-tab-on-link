@@ -8,7 +8,7 @@
   "content_scripts": [
     {
       "matches": ["http://0.0.0.0:8000/*"],
-      "js": ["libs/jquery.min.js", "js/content-script.js", "js/popup.js"]
+      "js": ["libs/jquery.min.js", "js/content-script.js"]
     }
   ],
   "background": {
@@ -22,6 +22,9 @@
       },
     "default_popup": "pages/popup.html"
   },
+  "web_accessible_resources": [
+    "/css/styles.js"
+  ],
   "icons": {
       "19": "imgs/icon-19.png",
       "48": "imgs/icon-48.png",

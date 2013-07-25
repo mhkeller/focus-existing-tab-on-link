@@ -1,14 +1,21 @@
-# Focus Existing Tab on Link
+# Link Yrself Clean
 
 This used to be an experimental feature in Chrome under <code>chrome://flags</code> but it is no more. With this Chrome extension, if you click a link to an existing tab, instead of opening a second tab, it will simply bring that tab to the front.
 
 ### Usage
 
-Enable the extension in Chrome (uploading to Chrome store after I make some nicer icons, if you really want to use it now, download the repo, go to Chrome Extensions, tick <code>Developer mode</code>, click <code>Load unpacked extension</code>, and navigate to where you downloaded the repo), and now any anchor tag that is classed <code>tab-link</code> will bring any existing tab with that url to the front on click. If no existing tab exists for that url, the link will open in a new one as normal. 
+Download it [its page on the Chrome Store](https://chrome.google.com/webstore/detail/link-yrself-clean/inhpdjeahfbhnhaofgcblmdhnfnecgcd).
+
+In your slides, give your links a class of ``tab-link`` like so:
+````
+<a href="http://my.awesomelink.com/" class="tab-link">Here's an example</a>
+````
+
+For convenience, the console will print all of the ``tab-link`` items in your deck so you can cmd-click to pre-load them. Why not make this list prettier in the popup window on the Chrome icon? Links in the popup.html file will always close the popup window after you click. That makes opening a ton of links very annoying.
 
 ### When would I ever want this?
 
-Let's say you want to show off some interactive websites during your presentation. It's easiest if you build your presentation in html but embedding full web sites into your presentation is going to look ugly. Who wants to see a full website inside of a slide? Their design might clash with your background color / headers. Worse still, depending on the resolution of the projector, who knows how it will end up displaying? Also, embedding a ton of websites into one tab is a recipe for Chrome slowing way down.
+Let's say you want to show off some interactive websites during your presentation. It's easiest if you build your presentation in HTML but embedding full web sites into your presentation is going to look ugly. Who wants to see a full website inside of a slide? Their design might clash with your background color / headers. Worse still, depending on the resolution of the projector, who knows how it will end up displaying? Also, embedding a ton of websites into one tab is a recipe for Chrome slowing way down.
 
 The semi-solution: Open up your example websites as separate tabs. The problem with that is it leaves you hunting for all these tabs in the middle of your presentation. And if you're in "Presentation mode" in Chrome, the menu animation is super swanky, yet distracting. 
 

@@ -2,9 +2,10 @@
 
 This used to be an experimental feature in Chrome under <code>chrome://flags</code> but it is no more. With this Chrome extension, if you click a link to an existing tab, instead of opening a second tab, it will simply bring that tab to the front.
 
+<img src="https://raw.github.com/mhkeller/link-yrself-clean/master/imgs/screenshot.png" width="100%"/>
 ### Usage
 
-Download it [its page on the Chrome Store](https://chrome.google.com/webstore/detail/link-yrself-clean/inhpdjeahfbhnhaofgcblmdhnfnecgcd).
+Download it from [its page on the Chrome Store](https://chrome.google.com/webstore/detail/link-yrself-clean/inhpdjeahfbhnhaofgcblmdhnfnecgcd).
 
 In your slides, give your links a class of ``tab-link`` like so:
 ````

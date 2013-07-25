@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Focus existing tabs on open",
-  "description": "Bring a link to the front if its already in an open tab. Useful for quickly showing pre-loaded tabs during presentations.",
+  "name": "Link Yrself Clean",
+  "description": "Bring a link to the front if it's already in an open tab instead of loading that URL in a new tab. Useful for quickly showing pre-loaded tabs during presentations.",
   "version": "0.9",
   "permissions": [ "tabs" ],
   "content_scripts": [
